@@ -1,0 +1,1650 @@
+<?xml version="1.0"?>
+
+-<package>
+
+<name>Abandoned_carts_By_Pricelizer</name>
+
+<version>2.0.0</version>
+
+<stability>stable</stability>
+
+<license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+
+<channel>community</channel>
+
+<extends/>
+
+<summary>Abandoned_carts_By_Pricelizer</summary>
+
+<description>Abandoned_carts_By_Pricelizer</description>
+
+<notes>Abandoned_carts_By_Pricelizer</notes>
+
+
+-<authors>
+
+
+-<author>
+
+<name>ajay singh</name>
+
+<user>ajays_ud</user>
+
+<email>ajay.singh@webenturetech.com</email>
+
+</author>
+
+</authors>
+
+<date>2015-03-18</date>
+
+<time>10:33:22</time>
+
+
+-<contents>
+
+
+-<target name="magecommunity">
+
+
+-<dir name="Greenacorn">
+
+
+-<dir name="Greenmodule">
+
+
+-<dir name="Helper">
+
+<file name="Data.php" hash="594500608096f2226884eabb450c429b"/>
+
+<file name="checkcart.php" hash="93cb99fd29c879c769d3661c5bfe9cf1"/>
+
+</dir>
+
+
+-<dir name="Model">
+
+<file name="Greenmodule.php" hash="3a1216c0fdbfd1a71b48dddcc5dfce25"/>
+
+<file name="Observer.php" hash="87948fb4b8839fe517f2d9636d8676e7"/>
+
+
+-<dir name="Resource">
+
+<file name="Resource.php" hash="d41d8cd98f00b204e9800998ecf8427e"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="controllers">
+
+<file name="FrontController.php" hash="01740c4fd13b975f6868165585d9d8b4"/>
+
+<file name="FrontmoduleController.php" hash="111f0cc63b581379078131b0c5e09516"/>
+
+<file name="IndexController.php" hash="e30b9175f1a539eff505860ce9cde10a"/>
+
+<file name="LicensceController.php" hash="eb0d5b80b9d172138c2a28fa15712c90"/>
+
+</dir>
+
+
+-<dir name="etc">
+
+<file name="adminhtml.xml" hash="391ac7b9325e4f63cae8ea3b30ff2e6a"/>
+
+<file name="config.xml" hash="37fda5f63f86ff8ade78fc038c9406f3"/>
+
+</dir>
+
+
+-<dir name="sql">
+
+
+-<dir name="greenmodule_setup">
+
+<file name="install-1.0.0.php" hash="aeb654febfbf35eb767599f74b65bf1d"/>
+
+</dir>
+
+<file name="mysql4-install-0.1.0.php" hash="28419dfb13181eb91be45d41fd4b155c"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="Button">
+
+
+-<dir name="Pricelizer">
+
+
+-<dir name="controllers">
+
+<file name="IndexController.php" hash="8dd1903f441f3065ad4a9c139d13eb87"/>
+
+</dir>
+
+
+-<dir name="etc">
+
+<file name="config.xml" hash="d24fe0b07e7208905ac31af2479f1ef5"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="Priceliz">
+
+
+-<dir name="Statistics">
+
+
+-<dir name="Helper">
+
+<file name="Data.php" hash="b2e693ee619b72a1d0a27f7971ca6efd"/>
+
+</dir>
+
+
+-<dir name="Model">
+
+<file name="Observer.php" hash="d41d8cd98f00b204e9800998ecf8427e"/>
+
+</dir>
+
+
+-<dir name="controllers">
+
+<file name="FrontController.php" hash="3c4cd75aee3e83aa172c18e09794df9a"/>
+
+<file name="FrontsalesController.php" hash="b1a2c150a824d44ba21695907b646164"/>
+
+<file name="IndexController.php" hash="578689ea9c0d263ab6eb977a5bc0229c"/>
+
+</dir>
+
+
+-<dir name="etc">
+
+<file name="adminhtml.xml" hash="82801784fd956f3afb3aee7454ce8cfa"/>
+
+<file name="config.xml" hash="8e41eb269eb33c8ec6ffe33291b48912"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="Email">
+
+
+-<dir name="Template">
+
+
+-<dir name="controllers">
+
+
+-<dir name="Adminhtml">
+
+<file name="CustomController.php" hash="d8297576e9c7febbaf48fb39da92846a"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="etc">
+
+<file name="adminhtml.xml" hash="6bde16b8bd83e22fe78f29c418cd638e"/>
+
+<file name="config.xml" hash="2c7351f69018542e90d9dc9908483526"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</target>
+
+
+-<target name="mageetc">
+
+
+-<dir name="modules">
+
+<file name="Green_All.xml" hash="94f77f249c1e02ca0486648cfcdbc248"/>
+
+<file name="Button_Pricelizer.xml" hash="c5b5b47e7f924af40e202eacaf6789f1"/>
+
+<file name="Priceliz_Statistics.xml" hash="d3d1ceaf161c374319db3632c0c4d771"/>
+
+<file name="Email_Template.xml" hash="0d5900da9430eae4696f3f8c380daadb"/>
+
+</dir>
+
+</target>
+
+
+-<target name="magedesign">
+
+
+-<dir name="adminhtml">
+
+
+-<dir name="default">
+
+
+-<dir name="default">
+
+
+-<dir name="template">
+
+
+-<dir name="Abandoncart">
+
+<file name="abandoncart.phtml" hash="68665f5d564c3373575978e9a4d8f772"/>
+
+<file name="email_content.phtml" hash="4bbbc00fd00fe5322f82ee99c0390cd2"/>
+
+<file name="email_template.phtml" hash="f710121d016f719390a3ef881518f503"/>
+
+<file name="email_template_old.phtml" hash="0d7b367d0fe09f12bc0dce18e684d343"/>
+
+<file name="extension_setting.php" hash="c2ebbfa137f4e7fc023b527e33dc3ca5"/>
+
+<file name="extensionsetting.phtml" hash="ff47862dfe688ebc540abb4a0c3f7a01"/>
+
+<file name="gear-01.png" hash="ca7c309ad9f895b2f543c2b8f62fbfed"/>
+
+<file name="gear-02.png" hash="9a537e85f64f041d3d1e982d139ce121"/>
+
+<file name="gear-03.png" hash="b8f1f55664062fc718871b7dff685108"/>
+
+<file name="license_key.php" hash="c2234f1aa9cb7131adb234761f2a9147"/>
+
+<file name="package_setting.php" hash="c528818913b4843646e765a78a44d356"/>
+
+<file name="pricelizer_logo.png" hash="dd2c676b51edf05ab4f215263f11a319"/>
+
+<file name="social_media.php" hash="9476143769de2a4aed8b3c82e0f8e415"/>
+
+<file name="socialmedia.php" hash="53ce6dd442870c55a1df042e50d2a56e"/>
+
+<file name="subscribe.php" hash="49eb93db71e09346194a46e5f1b7acea"/>
+
+<file name="unsubscribe.php" hash="a90585cec1c29a7714cebdf04d84d1a4"/>
+
+<file name="userformupdate.php" hash="4d9080db5d0277cc3c91a103e8f4f5ca"/>
+
+</dir>
+
+
+-<dir name="custom_email_template">
+
+
+-<dir name="ckeditor_old">
+
+<file name="CHANGES.md" hash="7a9b4a713d7042072b4003de4cc5364e"/>
+
+<file name="LICENSE.md" hash="7c8b429a9335313a178b51178c1dba3e"/>
+
+<file name="README.md" hash="79e767b62fc79d117ca3c5dc2688c077"/>
+
+
+-<dir name="adapters">
+
+<file name="jquery.js" hash="cb682e94976a833702918c30350cdf92"/>
+
+</dir>
+
+<file name="build-config.js" hash="3a35abf3cf94ce091fb168e2fdedcd71"/>
+
+<file name="ckeditor.js" hash="b31530f53682eeff6a7990d82341118e"/>
+
+<file name="config.js" hash="6c007fc9d9891861c2e5bb48fbc47fbd"/>
+
+<file name="contents.css" hash="7d8a9fce10ae28b0b7a233ac4794e701"/>
+
+
+-<dir name="lang">
+
+<file name="af.js" hash="a4da1a89f91f97c90d3070ac12c77c39"/>
+
+<file name="ar.js" hash="2b1e834edd48a5e99dc5df576aecf375"/>
+
+<file name="bg.js" hash="fa941bc6937d4af02c4f738e5c4e7935"/>
+
+<file name="bn.js" hash="603884b7467f2e31ef6cc09f70dfd666"/>
+
+<file name="bs.js" hash="6df052a88235698e1b7a98ab75011aed"/>
+
+<file name="ca.js" hash="1e38974b80e72cdc324020efe64a07de"/>
+
+<file name="cs.js" hash="18fcf488daa7cb5aa32870d86a06755c"/>
+
+<file name="cy.js" hash="8a683ce38d58c0e8440346359658d102"/>
+
+<file name="da.js" hash="07c4e87ddc27a4cd852f85c4b329c37c"/>
+
+<file name="de.js" hash="c2c45b4a7ee4f5ab225ba660c755f0fe"/>
+
+<file name="el.js" hash="40459724a2f839d484883214d67643d0"/>
+
+<file name="en-au.js" hash="ec137806fc4f78d917d71aab30696015"/>
+
+<file name="en-ca.js" hash="9e5509a29f9e59a93b5838365e29165a"/>
+
+<file name="en-gb.js" hash="8b70087aaeb3ce04323cda075519cf78"/>
+
+<file name="en.js" hash="654716387a2a4653126325f4f76df174"/>
+
+<file name="eo.js" hash="402509563f14b00dc8f0501c12f73cd3"/>
+
+<file name="es.js" hash="1b4ba48e7b4a498b5a2fb7ded7f8778c"/>
+
+<file name="et.js" hash="b3080aaf7deac6329dea06a34787e396"/>
+
+<file name="eu.js" hash="dcbbc46b597ff2a66c80565e76f4ea61"/>
+
+<file name="fa.js" hash="ccb5e7a7332a1e792a4e94b1e605bff2"/>
+
+<file name="fi.js" hash="977f6dc384a7308cb392fc8e5b6c7063"/>
+
+<file name="fo.js" hash="fe98704dc81d4a68710ffcead4fba3a8"/>
+
+<file name="fr-ca.js" hash="04782275c1a5e878b292b4669f2103a9"/>
+
+<file name="fr.js" hash="c0bba9de65d63e6561d15156a03b7a55"/>
+
+<file name="gl.js" hash="8c9104f979b863f29ee9b847380d4a73"/>
+
+<file name="gu.js" hash="abf0ac0070b08612c4c7bb73acacc50d"/>
+
+<file name="he.js" hash="1adc8d343554c5a8b101986cf85eca3e"/>
+
+<file name="hi.js" hash="ad9c81bb6fc36f09941ed42673b81dae"/>
+
+<file name="hr.js" hash="b0422383e82ffb951a046fc6566ce419"/>
+
+<file name="hu.js" hash="3b02e26af34bbe1da107708473af1923"/>
+
+<file name="id.js" hash="ee68725fa543f04d1e0c2cda9a680bca"/>
+
+<file name="is.js" hash="3a99c3cd67258ae138c1540882cefff0"/>
+
+<file name="it.js" hash="622ec7780364e4b18fcc0a1723cb8e75"/>
+
+<file name="ja.js" hash="1b95641f48342dedace8368ebc8b7977"/>
+
+<file name="ka.js" hash="fa693eda146bb848c41fb5fee9f05727"/>
+
+<file name="km.js" hash="befecf5ffc0c9199fde5485eb8ae1c62"/>
+
+<file name="ko.js" hash="d4bc205229c8adc2f73faf8bde41d117"/>
+
+<file name="ku.js" hash="2d4136c43456250e62c0ad3f3ee255b3"/>
+
+<file name="lt.js" hash="95313101adf04f3a9bfef23789f8f4d6"/>
+
+<file name="lv.js" hash="01584a4bb6e5261f2e1c2a4d535f9bda"/>
+
+<file name="mk.js" hash="aff6c027181e2bceb704f53ed6c600dd"/>
+
+<file name="mn.js" hash="3779d2221224074858eda874bb855676"/>
+
+<file name="ms.js" hash="c7fb266d40c79c602c9e34457417ca77"/>
+
+<file name="nb.js" hash="4025ca5612232e0f64751278f1923df0"/>
+
+<file name="nl.js" hash="2c69cf1862fe44fc334fe23b4335daed"/>
+
+<file name="no.js" hash="5fcdf31586fe3a2363c6707abcd9ada0"/>
+
+<file name="pl.js" hash="125bfba437e4848660c8d28665976218"/>
+
+<file name="pt-br.js" hash="ecaee6d6473c0c636944f476178f2993"/>
+
+<file name="pt.js" hash="9cac90053906a4499c253d95b0dce8f5"/>
+
+<file name="ro.js" hash="52330700a46ac4d07700d48a1610da08"/>
+
+<file name="ru.js" hash="d1d477e7b037c61746fe455145690fb6"/>
+
+<file name="si.js" hash="83a4acd234fe1208f3085d5ae395881f"/>
+
+<file name="sk.js" hash="58948fb5db299dab2d5c231ab6661ef1"/>
+
+<file name="sl.js" hash="a96fb5ad98a6e475fd3677096efc6c63"/>
+
+<file name="sq.js" hash="3b061f7145803663ced4ebdeb6099009"/>
+
+<file name="sr-latn.js" hash="ee0e7e445aaf4cdb20580da091084a78"/>
+
+<file name="sr.js" hash="4c26f43142ebecb28886b75bb602cc54"/>
+
+<file name="sv.js" hash="193175f5f5fd41cf11227072b8ed0eff"/>
+
+<file name="th.js" hash="cd53b7456c131a96dd2b683ead99ab27"/>
+
+<file name="tr.js" hash="48cef840c19455b2bffce1f95b0fc545"/>
+
+<file name="tt.js" hash="9bab3a48aa7c8fc9893f7f1d841bd4b2"/>
+
+<file name="ug.js" hash="10c53f0c6f3fc4479cf6dbc67029ac75"/>
+
+<file name="uk.js" hash="db53c7fc60426fdadcf4c52ced6799db"/>
+
+<file name="vi.js" hash="9d295f62525d46663676dd263ec6a82f"/>
+
+<file name="zh-cn.js" hash="cefa646cea5903c324aec0bafb1648cb"/>
+
+<file name="zh.js" hash="8f03c7eada5a93b369bb0e2e007d03ec"/>
+
+</dir>
+
+
+-<dir name="plugins">
+
+
+-<dir name="a11yhelp">
+
+
+-<dir name="dialogs">
+
+<file name="a11yhelp.js" hash="cb2a1ef38c23e676dfaeb3487595d703"/>
+
+
+-<dir name="lang">
+
+<file name="_translationstatus.txt" hash="24bf5072037fc1aecef2e359d25a57a9"/>
+
+<file name="ar.js" hash="3fc61181bf4cde3fa5643098d6273d24"/>
+
+<file name="bg.js" hash="f6cf516b7a668b636bce3c5d02f4761b"/>
+
+<file name="ca.js" hash="927571178a7bc2392ddf51ed9c7671fc"/>
+
+<file name="cs.js" hash="7acea37f626cfe23c2ffaaa2238b9199"/>
+
+<file name="cy.js" hash="973f3cbbd4b28320f06640b6f6863f6f"/>
+
+<file name="da.js" hash="b76dfbee5e2d20e8f8dfe1acca2eb3ef"/>
+
+<file name="de.js" hash="602e2509064f8b4932c02146851e52dc"/>
+
+<file name="el.js" hash="7249a77c5170e115f8cf2708e549183d"/>
+
+<file name="en-gb.js" hash="96a11168844b45dd2fca97f0bc837143"/>
+
+<file name="en.js" hash="19179da170c46f684b02f761b92d1105"/>
+
+<file name="eo.js" hash="d029b132230b6a085f83dda7cdfff244"/>
+
+<file name="es.js" hash="9c3dee5474541512a47b8f597fe8ced5"/>
+
+<file name="et.js" hash="3fd47d203a4b3cc1b81dfee881147e25"/>
+
+<file name="fa.js" hash="9ad8c1b6a3a1090ef1e9ca2cc4011dc0"/>
+
+<file name="fi.js" hash="f19d296005148dc0b9e7e363ed6c0cbe"/>
+
+<file name="fr-ca.js" hash="f1c004946d7ce517f2404c1503ee9743"/>
+
+<file name="fr.js" hash="ddd8c57cac45d04eccbaa0fcf34bb16c"/>
+
+<file name="gl.js" hash="b58fca4a93a1198c875274945f654449"/>
+
+<file name="gu.js" hash="73b48a65098d2479d6d17599d2325eb1"/>
+
+<file name="he.js" hash="0001be927867715387f537850ec3d0a6"/>
+
+<file name="hi.js" hash="80d1206a9520fc1d5c0514bb5a5f96fe"/>
+
+<file name="hr.js" hash="7aff809832eb6487d3c2032d3e42ca84"/>
+
+<file name="hu.js" hash="830de31b0ab7362c161f3bb33321dbd0"/>
+
+<file name="id.js" hash="fe101b83892261f6d154031e760dc8b0"/>
+
+<file name="it.js" hash="c3d3a34f933f8e968ef5b910b75beb33"/>
+
+<file name="ja.js" hash="f62d66d8f69ade8f9ce8813ef1478415"/>
+
+<file name="km.js" hash="bc28598f885a455b2a38810d49a61210"/>
+
+<file name="ko.js" hash="6657d900bfc5bc7e17b7d3e59f0bf5f0"/>
+
+<file name="ku.js" hash="8d7e4124317ef382bf6d0a287be4c46b"/>
+
+<file name="lt.js" hash="fe4e06252d5ce74ffc29c7f7f5478e77"/>
+
+<file name="lv.js" hash="a35562e7cdd0b804bd17ada24f7ce67a"/>
+
+<file name="mk.js" hash="953b41e51544b16e28af08c8036ec664"/>
+
+<file name="mn.js" hash="4504e1996db85389682d7494173f52b4"/>
+
+<file name="nb.js" hash="906f166b87695479de8498be740ee52b"/>
+
+<file name="nl.js" hash="80559b296b0e6a9d5bf8c874f87926d7"/>
+
+<file name="no.js" hash="82b2d5fec7e2ddff86d3c5317793ce5d"/>
+
+<file name="pl.js" hash="77198ab1f575cefad95f19111ef094a0"/>
+
+<file name="pt-br.js" hash="c4e398bfdce8c2d47ee7ad69c7a86e51"/>
+
+<file name="pt.js" hash="d3302c5817c5e14efadaf79f8e60289d"/>
+
+<file name="ro.js" hash="c117ca9629c290dff8af81feddf72454"/>
+
+<file name="ru.js" hash="0ddd71002d405722f6414583329ac364"/>
+
+<file name="si.js" hash="c0f621725c1a854f5883923c10774c78"/>
+
+<file name="sk.js" hash="27e46ca75810820e7ff416611116927d"/>
+
+<file name="sl.js" hash="5b06bd221c347124078cb9f718c9833b"/>
+
+<file name="sq.js" hash="c5893d068b103ca774c452f53231f2d1"/>
+
+<file name="sr-latn.js" hash="20706e57cf4f66b384e1c97f4d979ec8"/>
+
+<file name="sr.js" hash="4776bad83eddbd7ca0b0bf9ab1268a4a"/>
+
+<file name="sv.js" hash="7f73d5e04aab56c6a59cb8ca9b49b3dd"/>
+
+<file name="th.js" hash="ea8f05f3e2dc69ff98dc16cd23b3a88e"/>
+
+<file name="tr.js" hash="aa35a399a74088dabb34e513eb25d78d"/>
+
+<file name="tt.js" hash="ef6af77209af6b66d81cad9b3fbc037f"/>
+
+<file name="ug.js" hash="38022cf76ca5323acb76f40157455a33"/>
+
+<file name="uk.js" hash="311ae2c1c1e88e46f811fbdb1aa0959a"/>
+
+<file name="vi.js" hash="323bddfd07650e207cde877217365c79"/>
+
+<file name="zh-cn.js" hash="3b0a4f3b0163c594c2edf81e74c5376b"/>
+
+<file name="zh.js" hash="5edcce5642ac73e4131326625c759a5b"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="about">
+
+
+-<dir name="dialogs">
+
+<file name="about.js" hash="2f8ad42408a9d9da43a1d31c690e4075"/>
+
+
+-<dir name="hidpi">
+
+<file name="logo_ckeditor.png" hash="6318d2b6f7fc79b4ed0404ffbc2dac1e"/>
+
+</dir>
+
+<file name="logo_ckeditor.png" hash="70dd831c761a20467a6ba9e5ae736f91"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="clipboard">
+
+
+-<dir name="dialogs">
+
+<file name="paste.js" hash="449b52d23d51c23ed29877609090963b"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="colordialog">
+
+
+-<dir name="dialogs">
+
+<file name="colordialog.js" hash="c7ddfea7b9fb794331040ee2cad7f313"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="dialog">
+
+<file name="dialogDefinition.js" hash="6105439c866957299f095b3d7846bc23"/>
+
+</dir>
+
+
+-<dir name="div">
+
+
+-<dir name="dialogs">
+
+<file name="div.js" hash="4c0e52425eee65e6a8f6e19910c58d5b"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="find">
+
+
+-<dir name="dialogs">
+
+<file name="find.js" hash="338698b7480140a23707a78047136405"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="flash">
+
+
+-<dir name="dialogs">
+
+<file name="flash.js" hash="1121fb5c6dee33c6535fb8dfd9ca6368"/>
+
+</dir>
+
+
+-<dir name="images">
+
+<file name="placeholder.png" hash="e9ac9384237d8d1cdaab68d31a22005d"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="forms">
+
+
+-<dir name="dialogs">
+
+<file name="button.js" hash="b2b5a3ec23189f079c587821b665d271"/>
+
+<file name="checkbox.js" hash="87d3ebf2feaa2b176b4eebbac3c088c4"/>
+
+<file name="form.js" hash="800020de3c5e41aa2e1887c2fca17095"/>
+
+<file name="hiddenfield.js" hash="2cdcde2cc55e76e3bbf24d02cf0d5edb"/>
+
+<file name="radio.js" hash="b3adb8eab2c8c7e26b8cff8a6c77e352"/>
+
+<file name="select.js" hash="3627aa8209fbb1c672443bc6bdce8923"/>
+
+<file name="textarea.js" hash="4869bcd4fb1502311f94519cda884950"/>
+
+<file name="textfield.js" hash="7674233880679083e8ff7a23695679d4"/>
+
+</dir>
+
+
+-<dir name="images">
+
+<file name="hiddenfield.gif" hash="c724101436b085bf318e695fd784d658"/>
+
+</dir>
+
+</dir>
+
+<file name="icons.png" hash="041443f8380d92fdcc39ac1d7f841010"/>
+
+<file name="icons_hidpi.png" hash="16af6f6d04e4cd2180690cfcab4a7f9d"/>
+
+
+-<dir name="iframe">
+
+
+-<dir name="dialogs">
+
+<file name="iframe.js" hash="2da765d2b1a8e8992a48a676b956db7c"/>
+
+</dir>
+
+
+-<dir name="images">
+
+<file name="placeholder.png" hash="a5ab5364efc6f7cea525e76a7bb619ae"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="image">
+
+
+-<dir name="dialogs">
+
+<file name="image.js" hash="c78616c5536c9a74d0d4ec009998ddd6"/>
+
+</dir>
+
+
+-<dir name="images">
+
+<file name="noimage.png" hash="77404b5590596de508a542979f3cda84"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="link">
+
+
+-<dir name="dialogs">
+
+<file name="anchor.js" hash="32fac0e3965e24ab1a6f1054fe35e0a1"/>
+
+<file name="link.js" hash="df15d4dc91d34be7078f28ccec404c5f"/>
+
+</dir>
+
+
+-<dir name="images">
+
+<file name="anchor.png" hash="c23e1c6b52f6ca6678b77f38fef61789"/>
+
+
+-<dir name="hidpi">
+
+<file name="anchor.png" hash="9df1a4e40cabf35907a16ea59f3f9df1"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="liststyle">
+
+
+-<dir name="dialogs">
+
+<file name="liststyle.js" hash="4fd58f34401bd65ac6e428a695289076"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="magicline">
+
+
+-<dir name="images">
+
+
+-<dir name="hidpi">
+
+<file name="icon-rtl.png" hash="b37d0404583c0ac273a27873451c3234"/>
+
+<file name="icon.png" hash="5ba2e7b6aa50c7843ae9ca01ce08b606"/>
+
+</dir>
+
+<file name="icon-rtl.png" hash="a29eda8cd2b1ebcbd3379654acebfb85"/>
+
+<file name="icon.png" hash="baf6974c98b636142c7b0b5ba19bd96c"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="pagebreak">
+
+
+-<dir name="images">
+
+<file name="pagebreak.gif" hash="59caae8ab95b2eeba9444ba219446c75"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="pastefromword">
+
+
+-<dir name="filter">
+
+<file name="default.js" hash="90cf8cff4f802f94961bde61a25f8845"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="preview">
+
+<file name="preview.html" hash="0d805248106877e417257be520ded8d1"/>
+
+</dir>
+
+
+-<dir name="scayt">
+
+<file name="LICENSE.md" hash="e8f3afac5c765acbec1df8fc737eb48d"/>
+
+<file name="README.md" hash="1318c10ce6d6fb1c902d3c7915f41940"/>
+
+
+-<dir name="dialogs">
+
+<file name="options.js" hash="ff1135c148cb2c8cd0fb5ab5e1310e62"/>
+
+<file name="toolbar.css" hash="80cf4a974ffe1a69b6d6b85abb391d6f"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="showblocks">
+
+
+-<dir name="images">
+
+<file name="block_address.png" hash="9bec74c765f8a0938f50875912c07282"/>
+
+<file name="block_blockquote.png" hash="6a75769ebc3efc29bea72ca39f2706d5"/>
+
+<file name="block_div.png" hash="245b9fa9b31d1a230be294a4824ebc2a"/>
+
+<file name="block_h1.png" hash="9c7fce3d77cc205e7bd2a52043ea93e3"/>
+
+<file name="block_h2.png" hash="23e0bd942da90db8f0d1f02de9c102df"/>
+
+<file name="block_h3.png" hash="e46278c31f23cea32eec3cdeaf4fd344"/>
+
+<file name="block_h4.png" hash="e7f71965bd30638bdb845e46bb996487"/>
+
+<file name="block_h5.png" hash="4eb09981f4bd28f37cb01ffde72937bd"/>
+
+<file name="block_h6.png" hash="c59baac0a87734e16b44cdbac4fa5429"/>
+
+<file name="block_p.png" hash="c3a4ca41007690fb063166eb94c6c40a"/>
+
+<file name="block_pre.png" hash="2dd09308dc4573029ded1030ecea1a66"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="smiley">
+
+
+-<dir name="dialogs">
+
+<file name="smiley.js" hash="17093167095a9ea2f4d7015fcf1c039b"/>
+
+</dir>
+
+
+-<dir name="images">
+
+<file name="angel_smile.gif" hash="eb0d289bc2b6cf81cdcb3d172de01be3"/>
+
+<file name="angel_smile.png" hash="35de693f510be6092087e76fbd8d4858"/>
+
+<file name="angry_smile.gif" hash="01f7bf4165ed0ea9c575047512e6b254"/>
+
+<file name="angry_smile.png" hash="b1b142807ce4bb8784c5291e66c77e59"/>
+
+<file name="broken_heart.gif" hash="80bd5b8b6d380de82de62caacfdc5c31"/>
+
+<file name="broken_heart.png" hash="54051abe9b11365442eb133431055e4e"/>
+
+<file name="confused_smile.gif" hash="2c0fac96ca9ffc7946345f6bbb3f756f"/>
+
+<file name="confused_smile.png" hash="71ddba0809eaf8772a4f959c476dfd45"/>
+
+<file name="cry_smile.gif" hash="14eaed2d73022fca3bebfae0052b0c6b"/>
+
+<file name="cry_smile.png" hash="9f8eedc515716b59ffb31e0975ed70c6"/>
+
+<file name="devil_smile.gif" hash="e9421d09d8e14616be9571c92125933c"/>
+
+<file name="devil_smile.png" hash="9ebcc5258594dea600706f079ca84b48"/>
+
+<file name="embaressed_smile.gif" hash="666d0000b06a5dd44693b2d3ced7f547"/>
+
+<file name="embarrassed_smile.gif" hash="666d0000b06a5dd44693b2d3ced7f547"/>
+
+<file name="embarrassed_smile.png" hash="b99d286c8d3da9f3e91207bc6c829233"/>
+
+<file name="envelope.gif" hash="1448c4f72550074a49132c2895dafc4f"/>
+
+<file name="envelope.png" hash="579ad38a28eb7aa15daf8751a81ab246"/>
+
+<file name="heart.gif" hash="140f63f60c8cbdd8b54c10a43272c623"/>
+
+<file name="heart.png" hash="818362c20066b60184a5a0e8187baa79"/>
+
+<file name="kiss.gif" hash="5647a7d8a3f0e1e1536ce4156f5c2e25"/>
+
+<file name="kiss.png" hash="9615f97979a3674603cfd03bfeca451f"/>
+
+<file name="lightbulb.gif" hash="30d7063a64990b3b4c02566b4caa82e9"/>
+
+<file name="lightbulb.png" hash="952ab995f4cf77d7686d0ec853d2f232"/>
+
+<file name="omg_smile.gif" hash="23f1297b1e0bf882f47c2e7f99c5be7c"/>
+
+<file name="omg_smile.png" hash="10b2eb3edfab4bf94357bf8578f24377"/>
+
+<file name="regular_smile.gif" hash="d2eec284220e320bf730c56a1ac599e5"/>
+
+<file name="regular_smile.png" hash="bc23f5aef97ef9f12ac3b0d49bcd8afb"/>
+
+<file name="sad_smile.gif" hash="00185a83031165eee6389f74aefde902"/>
+
+<file name="sad_smile.png" hash="937e65674e30bd0f026d7260df698dc6"/>
+
+<file name="shades_smile.gif" hash="5adc692cc4db4637563136033890692b"/>
+
+<file name="shades_smile.png" hash="d25c5ca52217e776f33a709833f0cbfd"/>
+
+<file name="teeth_smile.gif" hash="98f94c05a790e302b74cfc8a02436571"/>
+
+<file name="teeth_smile.png" hash="82d6f950227d76aded2600aceac80f67"/>
+
+<file name="thumbs_down.gif" hash="b372f9ed85d5312d45a16b90e94f38f7"/>
+
+<file name="thumbs_down.png" hash="b2d9c5d63108c03b6ac62c1ae49c52d2"/>
+
+<file name="thumbs_up.gif" hash="aa9b9c654637e4416f6fa04a58a8f614"/>
+
+<file name="thumbs_up.png" hash="bb6ce02a0a423ef270217de51374f107"/>
+
+<file name="tongue_smile.gif" hash="1bea0b1184b1e5c3940ec8c5d6e81f86"/>
+
+<file name="tongue_smile.png" hash="d80a35ee23e3ee9cb6d32372a3182e39"/>
+
+<file name="tounge_smile.gif" hash="1bea0b1184b1e5c3940ec8c5d6e81f86"/>
+
+<file name="whatchutalkingabout_smile.gif" hash="381881cfa2765138a4c2e7f3da56bced"/>
+
+<file name="whatchutalkingabout_smile.png" hash="6e562cb0be0aa525d9a5b8b23759d4e4"/>
+
+<file name="wink_smile.gif" hash="1aab746a15472e6e4675369158ffb420"/>
+
+<file name="wink_smile.png" hash="9a5c2bebf35175e98a54c7edb62ae3cd"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="specialchar">
+
+
+-<dir name="dialogs">
+
+
+-<dir name="lang">
+
+<file name="_translationstatus.txt" hash="4969a155bd70211e993a76f4215b09d8"/>
+
+<file name="ar.js" hash="eb771f265a6a6a00db6e639ef25cb687"/>
+
+<file name="bg.js" hash="a3db8a782df812506b9d6cad27f8e954"/>
+
+<file name="ca.js" hash="014d8d796b91bbcd60b3eedbc75863c6"/>
+
+<file name="cs.js" hash="6602994ed72d4352ecbb2c9850146b09"/>
+
+<file name="cy.js" hash="daaf526c37518f8f8ab2f3e94ad484ea"/>
+
+<file name="de.js" hash="6e549c4c7afb8a58163c09b4cb05b9a1"/>
+
+<file name="el.js" hash="a34665a76b93875acb85a2aa370f3607"/>
+
+<file name="en-gb.js" hash="7535a09b90cebdabf4dfb79035e945c2"/>
+
+<file name="en.js" hash="1f0a736e423e47f3d8227b20a1af8a86"/>
+
+<file name="eo.js" hash="8e807cf3b227b692047cefa6853a6d94"/>
+
+<file name="es.js" hash="2b84890e6b3235715348b30628a7d988"/>
+
+<file name="et.js" hash="920f3546842878108f3e2b6ee8ce5257"/>
+
+<file name="fa.js" hash="a22482d39c2459c642da4302f3a8e1b0"/>
+
+<file name="fi.js" hash="cd35055300e57f0671b50fc9c387efd8"/>
+
+<file name="fr-ca.js" hash="0a9ebc5aee36ab0a70d52a64cbc6a8d0"/>
+
+<file name="fr.js" hash="a2edf8c5e77fa7790cedb28ea673adfe"/>
+
+<file name="gl.js" hash="7786d1011b89d457e8e6b93e84cd82cc"/>
+
+<file name="he.js" hash="ff5ee012df7e6eb1b184496b487b502a"/>
+
+<file name="hr.js" hash="e585c0ef091bb73c263dc197a3f6e0b8"/>
+
+<file name="hu.js" hash="4f2197b4ce860bf58a77fa2b3d13cac3"/>
+
+<file name="id.js" hash="7a9603c07c7c3e954696f19521a15d73"/>
+
+<file name="it.js" hash="c91d55c71290f701def881a2ac4c187f"/>
+
+<file name="ja.js" hash="0ba05d36d4770ee2b157a429247fdadb"/>
+
+<file name="km.js" hash="d89a7e86895762a2607e598caedc34db"/>
+
+<file name="ku.js" hash="c034d80005cbbe505d978c18200358d5"/>
+
+<file name="lv.js" hash="028b01567cdbe95028d6badc35611592"/>
+
+<file name="nb.js" hash="214546da09bc6e0308a2ad20b6b3044f"/>
+
+<file name="nl.js" hash="b96a4e2d85b9f8c0b9eedc62d7c4eebe"/>
+
+<file name="no.js" hash="3dae2c76a373126a1e0f557be13388e7"/>
+
+<file name="pl.js" hash="5f826dc572e1c8dcd3c558d780ec0063"/>
+
+<file name="pt-br.js" hash="0865eb4eba2e849d7a0695907ab9cef9"/>
+
+<file name="pt.js" hash="e12203a069336f9295ba7dc2799db8e0"/>
+
+<file name="ru.js" hash="4351922fd2f520fda06d12a2b2289b3b"/>
+
+<file name="si.js" hash="0ffe86a454e9a2e570b96610e0a3555f"/>
+
+<file name="sk.js" hash="3e013fd6dc388618a30da7a3f1b5a8ed"/>
+
+<file name="sl.js" hash="0034ffb7a27471f3eb757631582f87b8"/>
+
+<file name="sq.js" hash="763755c2a64da8d115345fe9efdc29e3"/>
+
+<file name="sv.js" hash="7df68de6ef4b2321ad1fbd2b99a17a40"/>
+
+<file name="th.js" hash="b46ae112d32a7bf573e91e1a5317b1ae"/>
+
+<file name="tr.js" hash="fc565819ba9a958ea560b84032c25423"/>
+
+<file name="tt.js" hash="a731dc19443a2462cbdac50dc3e0676e"/>
+
+<file name="ug.js" hash="7e6e4fe81e0ec0764125e763e637c8dc"/>
+
+<file name="uk.js" hash="819fa45bca5f27217ba7548bd5a7f845"/>
+
+<file name="vi.js" hash="dae7a05de8492aabf5292e1627843166"/>
+
+<file name="zh-cn.js" hash="473ca9e5542894f994dede38e28066b0"/>
+
+<file name="zh.js" hash="d5dff411425653893b2da14d14eec340"/>
+
+</dir>
+
+<file name="specialchar.js" hash="c1f4b71c61e227690c2a91f5e22ee912"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="table">
+
+
+-<dir name="dialogs">
+
+<file name="table.js" hash="af95de23736bb1eafad749b899ac4d40"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="tabletools">
+
+
+-<dir name="dialogs">
+
+<file name="tableCell.js" hash="80482897bc6cd5070bfd3ece907219cc"/>
+
+</dir>
+
+</dir>
+
+
+-<dir name="templates">
+
+
+-<dir name="dialogs">
+
+<file name="templates.css" hash="3cb0384b3264800a70bd076590c22000"/>
+
+<file name="templates.js" hash="02087b98d2508beeff533581d41c148d"/>
+
+</dir>
+
+
+-<dir name="templates">
+
+<file name="default.js" hash="ea413228af8c99c7afe67a10acb0ae39"/>
+
+
+-<dir name="images">
+
+<file name="template1.gif" hash="fc667c4366fe133c30ab122fe2ee7f20"/>
+
+<file name="template2.gif" hash="8a4d45166ebeef73e222270a8113d66f"/>
+
+<file name="template3.gif" hash="b8650f06582ac88ece68948bac1bf734"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="wsc">
+
+<file name="LICENSE.md" hash="6b7f5cf703f4c8a3e0b53175e356dc11"/>
+
+<file name="README.md" hash="07c5f45697e13e4f020fbf2d61765b99"/>
+
+
+-<dir name="dialogs">
+
+<file name="ciframe.html" hash="1787f06ccc8a313fdda6489d27db8e8c"/>
+
+<file name="tmpFrameset.html" hash="f771410d50f7500882f6d75e84106451"/>
+
+<file name="wsc.css" hash="87adbbf7a1d085d80c4c24398578a4cf"/>
+
+<file name="wsc.js" hash="1bd4128046c48abed86fd9c446e7d5eb"/>
+
+<file name="wsc_ie.js" hash="d911d8f1bcb7f44aefa38a68271f24ed"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="samples">
+
+<file name="ajax.html" hash="5ec1339a5c9341f48849adc9e99724cc"/>
+
+<file name="api.html" hash="365e45b580727d2c1c53c3fa7f2de9f6"/>
+
+<file name="appendto.html" hash="d0ada3b09b1ce7fbadb8bfc99f373ab1"/>
+
+
+-<dir name="assets">
+
+
+-<dir name="inlineall">
+
+<file name="logo.png" hash="24eff0ec56a9892334bb8f6041dcd562"/>
+
+</dir>
+
+
+-<dir name="outputxhtml">
+
+<file name="outputxhtml.css" hash="d751908b2ea7909d3cd544f4fcb882b5"/>
+
+</dir>
+
+<file name="posteddata.php" hash="09bca2d6605923299fa24fa02c6ce2cd"/>
+
+<file name="sample.jpg" hash="21d9ee7d983e172bf211e7724b39b383"/>
+
+
+-<dir name="uilanguages">
+
+<file name="languages.js" hash="34c25109ff2cc1dc736ad2474b873bff"/>
+
+</dir>
+
+</dir>
+
+<file name="datafiltering.html" hash="8a3bb20dbc883781f6f4264f8ec3377d"/>
+
+<file name="divreplace.html" hash="aabe97c9e1237b434294d3daf0c940a9"/>
+
+<file name="index.html" hash="42265273f7ba24ce4041b3c5b8cde541"/>
+
+<file name="inlineall.html" hash="7f7a8a97ab9e07a02b0c73b84de862a1"/>
+
+<file name="inlinebycode.html" hash="5538a05c7d2b67146cf60bb3a12ea87d"/>
+
+<file name="inlinetextarea.html" hash="77bfa3b8bdc46f097da03b5efacd3ae4"/>
+
+<file name="jquery.html" hash="a1bd173dcb9dd3c4d476075f72459415"/>
+
+
+-<dir name="plugins">
+
+
+-<dir name="dialog">
+
+
+-<dir name="assets">
+
+<file name="my_dialog.js" hash="2e2a3fcf48a27f27b80b5c85cc1621bf"/>
+
+</dir>
+
+<file name="dialog.html" hash="f585fa2017c232c9700d71dbd2bb8be2"/>
+
+</dir>
+
+
+-<dir name="enterkey">
+
+<file name="enterkey.html" hash="a1d6a4f36840ae414110a5c38d8918da"/>
+
+</dir>
+
+
+-<dir name="htmlwriter">
+
+
+-<dir name="assets">
+
+
+-<dir name="outputforflash">
+
+<file name="outputforflash.fla" hash="8fb373f8580dc2f95678ca861a1ba9af"/>
+
+<file name="outputforflash.swf" hash="de5410f8539db860e90a0c437f592f39"/>
+
+<file name="swfobject.js" hash="85486e883eea7808f7abc772a85b8107"/>
+
+</dir>
+
+</dir>
+
+<file name="outputforflash.html" hash="d7c15118b921e6d79f7377bb74e8aa1a"/>
+
+<file name="outputhtml.html" hash="74a27a4eb92496daff4c8b3e8102206e"/>
+
+</dir>
+
+
+-<dir name="magicline">
+
+<file name="magicline.html" hash="fcac34b6eefc89912ab4a9ad63e4d1dd"/>
+
+</dir>
+
+
+-<dir name="toolbar">
+
+<file name="toolbar.html" hash="692e20db6b797b084592808e936f779c"/>
+
+</dir>
+
+
+-<dir name="wysiwygarea">
+
+<file name="fullpage.html" hash="37ca40ad2de204bdc31b776570b78f46"/>
+
+</dir>
+
+</dir>
+
+<file name="readonly.html" hash="bed7e626021e840bf23bc85dd42b3c30"/>
+
+<file name="replacebyclass.html" hash="0a0a01f80d50bf2ee0911f68260f5b28"/>
+
+<file name="replacebycode.html" hash="24ded43b431a6139ade71a5c1c716ab8"/>
+
+<file name="sample.css" hash="423b9b74d72af471d39a3a7daa836a73"/>
+
+<file name="sample.js" hash="c938b0aa4a4f1086c7c955e83e743f8d"/>
+
+<file name="sample_posteddata.php" hash="4ccbf57427577000a3346e441729cf27"/>
+
+<file name="tabindex.html" hash="688720a9fc8ffaa4f9791b682a23b824"/>
+
+<file name="uicolor.html" hash="a252a43c3017ea44d8dd931696736ad6"/>
+
+<file name="uilanguages.html" hash="e6130cc7778c0a2faba0c6554b2e125d"/>
+
+<file name="xhtmlstyle.html" hash="76feba1d4cf57dfce14e346adcbc265a"/>
+
+</dir>
+
+
+-<dir name="skins">
+
+
+-<dir name="moono">
+
+<file name="dialog.css" hash="b2f59b7b780d4c6502ece136f55659a6"/>
+
+<file name="dialog_ie.css" hash="c6efd715244e5b90595a2017304d42aa"/>
+
+<file name="dialog_ie7.css" hash="0adac76390e76e7c5c611d19ee24ae14"/>
+
+<file name="dialog_ie8.css" hash="0c33ea1a90031fe34e2b2ae564eb93b5"/>
+
+<file name="dialog_iequirks.css" hash="03d013e962da44d0c3cc06c58ae1c59d"/>
+
+<file name="editor.css" hash="2c95f9094b17d189b4647971e269c4e8"/>
+
+<file name="editor_gecko.css" hash="ccb604ef4eef79050dd2ff13cb1c9bdd"/>
+
+<file name="editor_ie.css" hash="15497205b53dd7bb78610eafbba076fd"/>
+
+<file name="editor_ie7.css" hash="1448726f546debce014826bcb99cf08c"/>
+
+<file name="editor_ie8.css" hash="85a4e3519b89c4a9a3883973cdeed833"/>
+
+<file name="editor_iequirks.css" hash="a4dbcee96436aafd3802e121a48098bf"/>
+
+<file name="icons.png" hash="041443f8380d92fdcc39ac1d7f841010"/>
+
+<file name="icons_hidpi.png" hash="16af6f6d04e4cd2180690cfcab4a7f9d"/>
+
+
+-<dir name="images">
+
+<file name="arrow.png" hash="5b9854a7f865788fff62fe32b0324ca0"/>
+
+<file name="close.png" hash="9b497b65c0909aa80b21aa989363a0bb"/>
+
+
+-<dir name="hidpi">
+
+<file name="close.png" hash="cd269135b1c31c9044974c3d17059b04"/>
+
+<file name="lock-open.png" hash="4f6b9606513757e04d4de3268a123eb7"/>
+
+<file name="lock.png" hash="f6cf4b23d39107db8aaf907f686a0052"/>
+
+<file name="refresh.png" hash="33ebeddcb7b69137ffbfca121b0f6213"/>
+
+</dir>
+
+<file name="lock-open.png" hash="e9dff089035fee4ac979a340ef8d4fcf"/>
+
+<file name="lock.png" hash="68f4c2f5309e4dbc0f98c4be79dc66c7"/>
+
+<file name="refresh.png" hash="0f54df868f75482f99157807f6f68ee0"/>
+
+</dir>
+
+<file name="readme.md" hash="33d6b70025c4dc81cdd95752a26dd1e0"/>
+
+</dir>
+
+</dir>
+
+<file name="styles.js" hash="ce8a2493c5c032516beb3d63a2d60438"/>
+
+</dir>
+
+<file name="customtab.phtml" hash="90514bd7909bcb7ad8d7e376653c89c1"/>
+
+<file name="email_content.php" hash="4ba0d7874e2a0ce12b57f2f12aed8157"/>
+
+<file name="email_content.phtml" hash="622b7c6e167fe94042a7028122c0aff9"/>
+
+<file name="purchase_reminder.phtml" hash="3022ca0a95bb821b293f967f5dc49466"/>
+
+<file name="template_setting.phtml" hash="9fd20a50ba2cddb4642de926a6304d9f"/>
+
+</dir>
+
+
+-<dir name="pricelizerstatistics">
+
+<file name="non_resgistered_statistics.phtml" hash="9c4ffa40a4ff589e57a38f1ae6ad56bf"/>
+
+<file name="pricelizerstatistics.phtml" hash="f1cc2054e59ca438833d4aeacd6f5a5e"/>
+
+<file name="statistics_layergrapgh.phtml" hash="53a267effe5795870ee0cda7c0989f2e"/>
+
+<file name="statisticsview.phtml" hash="eda19cbf22e9faa39a2867a8a6392299"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="frontend">
+
+
+-<dir name="base">
+
+
+-<dir name="default">
+
+
+-<dir name="template">
+
+
+-<dir name="Abandoncart">
+
+<file name="facebook.jpeg.png" hash="8e0a42086f473038554887702174bee5"/>
+
+<file name="google.jpeg.png" hash="f9bac362b1032da102cc0452ea6121ce"/>
+
+<file name="index.phtml" hash="f0fd01876be5a012b17960ce2e234284"/>
+
+<file name="linked.jpeg.png" hash="64b17a8f10bba3fbeb3e1eb11e353da1"/>
+
+<file name="loginwithsocialmedia.phtml" hash="e193086c94bc5c82c89ddfbf74fa82cd"/>
+
+</dir>
+
+
+-<dir name="page">
+
+
+-<dir name="html">
+
+<file name="head.phtml" hash="4a273c48857a5a2066a4e0b63ccda94d"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="layout">
+
+<file name="Greenacorn_Greenmodule.xml" hash="457bac3559727f4af5c1098ced319dad"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="rwd">
+
+
+-<dir name="default">
+
+
+-<dir name="template">
+
+
+-<dir name="catalog">
+
+
+-<dir name="product">
+
+
+-<dir name="compare">
+
+<file name="list.phtml" hash="9ca283337292782b4c9fdadc7e0f4735"/>
+
+</dir>
+
+<file name="list.phtml" hash="c6952df61891fa20c050dedee2d4060f"/>
+
+
+-<dir name="widget">
+
+
+-<dir name="new">
+
+
+-<dir name="column">
+
+<file name="new_default_list.phtml" hash="ceb3ba9e4b2ca343ce0e1098fc3519ce"/>
+
+<file name="new_images_list.phtml" hash="6245889bf59e291eec3d01a3402092ad"/>
+
+<file name="new_names_list.phtml" hash="6a3fee1a64912101388c4638d485e215"/>
+
+</dir>
+
+
+-<dir name="content">
+
+<file name="new_list.phtml" hash="5eedab654892dd9e1cf1ed22c248a39a"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+
+-<dir name="view">
+
+<file name="addtocart.phtml" hash="ab64104b69d274ce4b778971c77f03c6"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</target>
+
+
+-<target name="magecore">
+
+
+-<dir name="Mage">
+
+
+-<dir name="Checkout">
+
+
+-<dir name="controllers">
+
+<file name="OnepageController.php" hash="2e5fc932ffb98fce825db1449e7ed2da"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</target>
+
+
+-<target name="mageskin">
+
+
+-<dir name="adminhtml">
+
+
+-<dir name="default">
+
+
+-<dir name="default">
+
+
+-<dir name="images">
+
+<file name="powered-by-pricelizer.png" hash="9fe3f5358e18f2a21caee7343a635d83"/>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</dir>
+
+</target>
+
+</contents>
+
+<compatible/>
+
+
+-<dependencies>
+
+
+-<required>
+
+
+-<php>
+
+<min>5.2.0</min>
+
+<max>6.0.0</max>
+
+</php>
+
+</required>
+
+</dependencies>
+
+</package>
