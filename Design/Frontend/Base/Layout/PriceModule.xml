@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+-<layout version="0.1.0">
+
+
+-<checkout_cart_index>
+
+
+-<reference name="before_body_end">
+
+<block name="Abandoncart_cart_event_checkout_cart_index" template="Abandoncart/cart/event/checkout/cart/index.phtml" type="Abandoncart_cart/event_checkout_cart_index"/>
+
+</reference>
+
+</checkout_cart_index>
+
+</layout>
